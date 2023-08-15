@@ -187,6 +187,7 @@ $('body').on('click', '#jeopardy', function handleClick(evt) {
         return;
     }
     $(`#${catId}-${clueId}`).html(cellText);
+    $(`#${catId}-${clueId}`).css('background-color', 'green');
 })
 
 /** Wipe the current Jeopardy board, show the loading spinner,
