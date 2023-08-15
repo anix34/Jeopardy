@@ -7,8 +7,8 @@
 */
 
 body {
-  background-color: #0054DE;
-  color: #EFC05D;
+  background-color: #0074D9;
+  color: #EFC050;
   font-family: sans-serif;
 }
 
@@ -25,5 +25,5 @@ table {
 th, tr {
   height: 100px;
   width: 20%;
-  border: 2cap solid white;
+  border: 1.5px solid white;
 }
