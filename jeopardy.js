@@ -195,13 +195,16 @@ $('body').on('click', '#jeopardy', function handleClick(evt) {
  */
 
 function showLoadingView() {
-
+ $('table').css('visibility', 'collapse');
+    $('#loading-div').css('visibility', 'visible');
+}
 }
 
 /** Remove the loading spinner and update the button used to fetch data. */
 
 function hideLoadingView() {
-
+ $('#loading-div').css('visibility', 'hidden');
+    $('table').css('visibility', 'visible');
 }
 
 /** Start game:
